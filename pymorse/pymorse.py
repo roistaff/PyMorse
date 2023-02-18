@@ -25,8 +25,11 @@ class MORSE:
     MORSEdic2 = {v: k for k, v in MORSEdic.items()}
     code = input.split("_")
     txt = ""
-    for s in code:
-      txt += MORSEdic2[s]
+    try:
+      for s in code:
+        txt += MORSEdic2[s]
+    except:
+      txt += "?"
     return txt
 if __name__ == '__main__':
   a = MORSE()
