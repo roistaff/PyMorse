@@ -1,1 +1,1 @@
-from pymorse import *
+from pymorse import MORSE
