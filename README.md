@@ -7,9 +7,9 @@ PyMorseを使えば誰もが簡単にモールス信号を文字列へ、文字�
 ```Python  
 import pymorse
 # string to morse code
-print(MORSE.string_to_code("Hello world"))
+print(pymorse.string_to_code("Hello world"))
 # morse code to string
-print(MORSE.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-.."))# A comma means a space.
+print(.pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-..")) # A comma means a space.
 ```
 # Requirement
 None!
