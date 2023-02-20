@@ -9,7 +9,7 @@ import pymorse
 # string to morse code
 print(pymorse.string_to_code("Hello world"))
 # morse code to string
-print(pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-..")) # A comma means a space.
+print(pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-.."))
 ```
 # Requirement
 None!
@@ -18,13 +18,7 @@ None!
 $ pip install git+https://github.com/roistaff/PyMorse
 ```
 # Note
-  ","(comma) in a output:
- ```
- ...._._.-.._.-.._---_,_.--_---_.-._.-.._-..
- ```
- are means a space.  
- 上のような出力の中のコンマは空白を意味します。  
- Morse code doesn't have a comma.   
+ Morse code doesn't have a comma and space.   
  モールスコードにはコンマはありません。
 # Author
  Roi Staff（スタッフ・ロイ）  
