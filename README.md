@@ -9,7 +9,7 @@ import pymorse
 # string to morse code
 print(pymorse.string_to_code("Hello world"))
 # morse code to string
-print(.pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-..")) # A comma means a space.
+print(pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-..")) # A comma means a space.
 ```
 # Requirement
 None!
