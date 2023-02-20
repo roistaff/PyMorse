@@ -7,7 +7,7 @@ PyMorseを使えば誰もが簡単にモールス信号を文字列へ、文字�
 ```Python  
 import pymorse
 # string to morse code
-print(pymorse.string_to_code("Hello world"))
+print(pymorse.string_to_code("Helloworld"))
 # morse code to string
 print(pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-.."))
 ```
