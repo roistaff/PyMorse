@@ -9,7 +9,7 @@ import pymorse
 # string to morse code
 print(pymorse.string_to_code("Helloworld"))
 # morse code to string
-print(pymorse.code_to_string("...._._.-.._.-.._---_,_.--_---_.-._.-.._-.."))
+print(pymorse.code_to_string("...._._.-.._.-.._---_.--_---_.-._.-.._-.."))
 ```
 # Requirement
 None!
@@ -19,7 +19,13 @@ $ pip install git+https://github.com/roistaff/PyMorse
 ```
 # Note
  Morse code doesn't have a comma and space.   
- モールスコードにはコンマはありません。
+ モールスコードにはコンマとスペースはありません。
+ ```Python
+ print(pymorse.string_to_code("Hello,world"))
+# ...._._.-.._.-.._---_*_.--_---_.-._.-.._-..
+```
+As above, returns "*" if the passed argument has a value that is not in the dictionary.  
+上のように渡された引数が辞書にない値の場合、”*”が返されます。
 # Author
  Roi Staff（スタッフ・ロイ）  
  Gmail:roistaff1983@gmail.com  
