@@ -15,7 +15,7 @@ print(pymorse.code_to_string("...._._.-.._.-.._---_.--_---_.-._.-.._-.."))
 None!
 # Installation
 ```bash
-$ pip install git+https://github.com/roistaff/PyMorse
+pip install git+https://github.com/roistaff/PyMorse
 ```
 # Note
  Morse code doesn't have a comma and space.   
